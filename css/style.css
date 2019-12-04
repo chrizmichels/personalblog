@@ -1,0 +1,39 @@
+body {
+  background-color: #444;
+  color: #fffff8;
+}
+
+.container {
+  display: grid;
+  width: 80vw;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "hd"
+    "lp"
+    "main"
+    "ft";
+  border: 2px solid pink;
+  font-size: xx-large;
+}
+
+.header {
+  grid-area: hd;
+}
+.latestpost {
+  grid-area: lp;
+}
+.blogpostscontainer {
+  grid-area: main;
+}
+.footer {
+  grid-area: ft;
+}
+
+.box {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border: 2px solid lightgreen;
+}

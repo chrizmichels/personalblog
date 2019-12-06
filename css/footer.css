@@ -1,0 +1,19 @@
+/* All Footer Styling */
+footer {
+  display: flex;
+  padding: 10px;
+  border: 2px solid lightseagreen;
+}
+#copyright {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-start;
+  border: 2px solid lightgrey;
+}
+
+#social {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+  border: 2px solid lightgrey;
+}

@@ -1,0 +1,32 @@
+/* Latest Post Container Styling */
+.latestpost {
+  grid-area: lp;
+  display: flex;
+  /* flex: 1 1 auto; */
+  flex-direction: column;
+  padding: 10px;
+  /* border: 2px solid lightyellow; */
+}
+a {
+  color: lightblue;
+}
+
+/* Blog Post Summary */
+.postcontainer {
+  display: grid;
+  gap: 15px;
+}
+.post {
+  display: flex;
+  flex-direction: column;
+  grid-area: "main";
+  padding: 10px;
+  border: 2px solid lightyellow;
+}
+
+button {
+  width: 200px;
+  background-color: aquamarine;
+  align-items: flex-end;
+  color: black;
+}

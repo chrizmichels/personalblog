@@ -2,47 +2,49 @@
 body {
   background-color: #444;
   color: #fffff8;
+
+  background-image: linear-gradient(
+      rgba(68, 68, 68, 0.8),
+      rgba(68, 68, 68, 0.8)
+    ),
+    url("../img/back.jpg");
+  background-position: center;
 }
 
 /* General GRID Configuration */
 .container {
   display: grid;
   grid-template-columns: repeat(6, 1fl);
-  grid-auto-rows: minmax(50px, auto);
-  grid-gap: 10px;
+  grid-auto-rows: minmax(10px, auto);
+  padding: 10px;
+  gap: 20px;
+  /* grid-gap: 100px; */
   grid-template-areas:
     "hd"
     "lp"
     "main"
     "ft";
   border: 2px solid pink;
-  font-size: xx-large;
+  font-size: large;
+  /* align-content: center; */
 }
 
-.box {
-  display: flex;
-  flex-direction: row;
-  flex: 1 1 auto;
-  padding: 20px;
-  gap: 10px;
-  border: 2px solid lightgreen;
+@media (min-width: 900px) {
+  .container {
+    grid-template-areas:
+      "hd hd hd hd hd hd"
+      "main main main main lp lp"
+      "ft ft ft ft ft ft";
+    font-size: medium;
+  }
 }
 
-/* Latest Post Container Styling */
-.latestpost {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  border: 2px solid lightyellow;
-}
-a {
-  color: lightblue;
-}
-
-/* Blog Post Summary */
-.post {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  border: 2px solid lightyellow;
+@media (min-width: 900px) {
+  .blogcontainer {
+    grid-template-areas:
+      "hd hd hd hd hd hd"
+      "main main main main"
+      "ft ft ft ft ft ft";
+    font-size: medium;
+  }
 }

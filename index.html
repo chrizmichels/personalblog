@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/posts.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <script
+      src="https://kit.fontawesome.com/b9c8977059.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Cfrsrs of the Works Blog</title>
   </head>
   <body>
@@ -20,13 +25,14 @@
       </header>
 
       <div class="latestpost">
-        <a href="blogpost1.html">0001: Lore Ipsum Title</a>
-        <a href="#">0001: Lore Ipsum Title</a>
-        <a href="#">0001: Lore Ipsum Title</a>
+        <h1>Featured Posts</h1>
+        <a href="#postone">0001: Lore Ipsum Title</a>
+        <a href="#posttwo">0002: Lore Ipsum Title</a>
+        <a href="#postthree">0003: Lore Ipsum Title</a>
       </div>
-      <div>
-        <div class="post">
-          <h1>0001: Lore Ipsum Title</h1>
+      <section class="postcontainer">
+        <article class="post" id="postone">
+          <h1><a href="blogpost1.html">0001: Lore Ipsum Title</a></h1>
           <h2>Author: Paul Newman</h2>
           <h3>Published: 03.12.2019</h3>
           <h4>Summary</h4>
@@ -42,8 +48,8 @@
             sold out vegan activated charcoal af. Meggings pug cold-pressed
             gastropub
           </p>
-        </div>
-        <div class="post">
+        </article>
+        <article class="post" id="posttwo">
           <h1>0002: Lore Ipsum Title</h1>
           <h2>Author: Paul Newman</h2>
           <h3>Published: 05.12.2019</h3>
@@ -60,8 +66,8 @@
             sold out vegan activated charcoal af. Meggings pug cold-pressed
             gastropub
           </p>
-        </div>
-        <div class="post">
+        </article>
+        <article class="post" id="postthree">
           <h1>0003: Lore Ipsum Title</h1>
           <h2>Author: Paul Newman</h2>
           <h3>Published: 06.12.2019</h3>
@@ -78,11 +84,20 @@
             sold out vegan activated charcoal af. Meggings pug cold-pressed
             gastropub
           </p>
-        </div>
-      </div>
+        </article>
+      </section>
       <footer>
-        <div id="copyright">CP</div>
-        <div id="social">XXX</div>
+        <ul>
+          <li><a href="#">Made in Zurich with</a></li>
+          <li><jji id="heart" class="fas fa-heart"></li>
+        </ul>
+        <!--         
+        <div>
+          <div id="copyleft">Made in Zurich with</div>
+          <div id="copyright"><i id="heart" class="fas fa-heart"></i></div>
+        </div>
+        <div id="social"><i class="fab fa-twitter-square"></i></div>
+        <div id="social"><i class="fab fa-linkedin"></i></div> -->
       </footer>
     </div>
   </body>

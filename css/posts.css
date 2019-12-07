@@ -1,14 +1,22 @@
 /* Latest Post Container Styling */
+
 .latestpost {
   grid-area: lp;
   display: flex;
-  /* flex: 1 1 auto; */
   flex-direction: column;
   padding: 10px;
-  /* border: 2px solid lightyellow; */
+  border: 2px transparent;
+  border-top-style: solid;
+  border-top-color: pink;
+  border-top-width: thick;
 }
-a {
+.post h1 a {
   color: lightblue;
+}
+
+.latestpost a {
+  color: lightblue;
+  line-height: 1.5;
 }
 
 /* Blog Post Summary */
@@ -21,7 +29,12 @@ a {
   flex-direction: column;
   grid-area: "main";
   padding: 10px;
-  border: 2px solid lightyellow;
+  line-height: 1.2;
+  border: 2px transparent;
+  border-top-style: solid;
+  border-top-color: pink;
+  border-top-width: thick;
+  /* border: 2px solid lightyellow; */
 }
 
 button {

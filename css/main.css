@@ -1,4 +1,6 @@
 /*  General Body Styling */
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+
 body {
   background-color: #444;
   color: #fffff8;
@@ -25,6 +27,7 @@ body {
     "ft";
   /* border: 2px solid pink; */
   font-size: large;
+  font-family: "Inconsolata", monospace;
   /* align-content: center; */
 }
 

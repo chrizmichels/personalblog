@@ -44,6 +44,10 @@
   font-size: xx-large;
 }
 
+.author {
+  line-height: 0.5;
+}
+
 .blogcontainer {
   display: grid;
   grid-template-columns: repeat(6, 1fl);

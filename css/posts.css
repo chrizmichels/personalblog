@@ -10,9 +10,6 @@
   border-top-color: pink;
   border-top-width: thick;
 }
-.post h1 a {
-  color: lightblue;
-}
 
 .latestpost a {
   color: lightblue;
@@ -35,6 +32,28 @@
   border-top-color: pink;
   border-top-width: thick;
   /* border: 2px solid lightyellow; */
+}
+
+.post h1 {
+  color: lightblue;
+  font-size: xx-large;
+}
+
+.post h1 a {
+  color: lightblue;
+  font-size: xx-large;
+}
+
+.blogcontainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fl);
+  grid-auto-rows: minmax(10px, auto);
+  padding: 10px;
+  gap: 20px;
+  grid-template-areas:
+    "hd"
+    "main"
+    "ft";
 }
 
 button {

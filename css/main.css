@@ -38,7 +38,7 @@ body {
   }
 }
 
-@media (min-width: 900px) {
+/* @media (min-width: 900px) {
   .blogcontainer {
     grid-template-areas:
       "hd hd hd hd hd hd"
@@ -46,6 +46,6 @@ body {
       "ft ft ft ft ft ft";
     font-size: medium;
     gap: 20px;
-    border: 2px solid pink;
-  }
+    /* border: 2px solid pink; */
+  } */
 }

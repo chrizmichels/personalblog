@@ -9,6 +9,7 @@
   border-top-style: solid;
   border-top-color: pink;
   border-top-width: thick;
+  /* border: 2px solid lightyellow; */
 }
 
 .latestpost a {
@@ -21,6 +22,12 @@
   display: grid;
   gap: 15px;
 }
+
+.othercontainer {
+  display: grid;
+  gap: 15px;
+}
+
 .post {
   display: flex;
   flex-direction: column;
@@ -67,6 +74,9 @@
 
 button {
   width: 200px;
+  border: none;
+  font-size: large;
+  color: antiquewhite;
   background-color: aquamarine;
   align-items: flex-end;
   color: black;

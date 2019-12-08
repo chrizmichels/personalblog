@@ -45,7 +45,12 @@
 }
 
 .author {
-  line-height: 0.5;
+  display: inline-block;
+  line-height: 2.5;
+}
+
+.summary {
+  line-height: 1.2;
 }
 
 .blogcontainer {

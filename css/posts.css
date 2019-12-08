@@ -4,11 +4,12 @@
   grid-area: lp;
   display: flex;
   flex-direction: column;
-  padding: 10px;
-  border: 2px transparent;
+  gap: 50px;
+  /* padding: 10px; */
+  /* border: 2px transparent;
   border-top-style: solid;
   border-top-color: pink;
-  border-top-width: thick;
+  border-top-width: thick; */
   /* border: 2px solid lightyellow; */
 }
 
@@ -31,7 +32,7 @@
 .post {
   display: flex;
   flex-direction: column;
-  grid-area: "main";
+  /* grid-area: "main"; */
   padding: 10px;
   line-height: 1.2;
   border: 2px transparent;

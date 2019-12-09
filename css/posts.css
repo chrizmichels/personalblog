@@ -29,6 +29,37 @@
   gap: 15px;
 }
 
+/* Avantar */
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.cardcontainer {
+  /* display: flex; */
+  padding: 2px 16px;
+  object-fit: contain;
+  height: 300px;
+  /* background-origin: content-box; */
+  background-image: linear-gradient(
+      rgba(68, 68, 68, 0.8),
+      rgba(68, 68, 68, 0.8)
+    ),
+    url("../img/author.jpg");
+  background-position: center;
+  background-size: cover;
+  display: block;
+  object-fit: cover;
+}
+
+/* Post */
 .post {
   display: flex;
   flex-direction: column;

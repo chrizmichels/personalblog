@@ -40,14 +40,3 @@ body {
     font-size: medium;
   }
 }
-
-.aboutme {
-  grid-area: am;
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  border: 2px transparent;
-  border-top-style: solid;
-  border-top-color: pink;
-  border-top-width: thick;
-}

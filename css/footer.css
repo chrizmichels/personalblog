@@ -1,10 +1,12 @@
 /* All Footer Styling */
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap"); */
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 /*  Footer design inspired by https://codepen.io/slstudios/pen/mJqjeP */
 
 * {
-  font-family: Roboto;
+  /* font-family: Roboto; */
+  font-family: "Josefin Sans", sans-serif;
+  /* font-family: "Amatic SC", cursive; */
 }
 footer {
   grid-area: ft;
@@ -12,7 +14,7 @@ footer {
   display: inline-block;
   background: #ccc;
   text-align: center;
-  font-size: 22px;
+  font-size: 32px;
   font-weight: 700;
   text-decoration: underline;
   border: 2px transparent;
@@ -26,6 +28,7 @@ footer {
   width: 100%;
   text-align: left;
   font: normal 16px sans-serif;
+  /* font-family: "Amatic SC", cursive; */
   padding: 45px 50px;
 }
 

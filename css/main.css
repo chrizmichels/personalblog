@@ -1,4 +1,7 @@
 /*  General Body Styling */
+@import "header.css";
+@import "posts.css";
+@import "footer.css";
 @import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
 
 body {

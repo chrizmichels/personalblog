@@ -1,5 +1,5 @@
 /* All Header Style */
-@import url("https://fonts.googleapis.com/css?family=Amatic+SC|Lobster");
+/* @import url("https://fonts.googleapis.com/css?family=Amatic+SC|Lobster"); */
 
 header {
   grid-area: hd;
@@ -9,7 +9,7 @@ header {
   /* border: 2px solid lightseagreen; */
   background-color: pink;
   font-size: xx-large;
-  font-family: "Indie Flower", cursive;
+  /* font-family: "Indie Flower", cursive; */
 }
 
 #navbar {
@@ -18,15 +18,17 @@ header {
   justify-content: flex-end;
   list-style: none;
   /* border: 2px solid lightgrey; */
-  font-size: x-large;
+  /* font-family: "Amatic SC", cursive; */
+  /* font-size: x-large; */
 }
 
 li a {
   text-decoration: none;
   padding: 10px;
-  size: 10px;
+  size: 30px;
   color: #444;
   text-emphasis: emphasis;
+  font-family: "Amatic SC", cursive;
 }
 
 #title {
@@ -34,5 +36,6 @@ li a {
   flex: 1 1 auto;
   justify-content: flex-start;
   list-style: none;
+  font-family: "Amatic SC", cursive;
   /* border: 2px solid lightcoral; */
 }
